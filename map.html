@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A map of room objects by sentimental and practical value." />
+    <meta name="theme-color" content="#f4f4f2" />
+    <title>Object Map — My Room, Objectified</title>
+    <link rel="stylesheet" href="map.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="titlebar"><span>My Room, Objectified</span></header>
+      <section class="toolbar" aria-label="Map controls">
+        <div class="axis-controls"><span class="control-label">Show</span>
+          <label class="toggle"><input id="sentimental-toggle" type="checkbox" checked /><span>Sentimental Value</span></label>
+          <label class="toggle"><input id="practical-toggle" type="checkbox" checked /><span>Practical Value</span></label>
+        </div>
+        <div class="search-wrap"><label for="search">Search</label><input id="search" type="search" autocomplete="off" /></div>
+      </section>
+      <section class="map-wrap" aria-label="Object value map">
+        <div id="map" class="map" data-x="true" data-y="true">
+          <div class="axis-y" aria-hidden="true"></div><div class="axis-x" aria-hidden="true"></div>
+          <span class="axis-label label-practical">Practical</span><span class="axis-label label-sentimental">Sentimental</span>
+          <div id="objects" class="objects" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="object-dialog" class="object-dialog"><div id="object-details"></div></dialog>
+  </body>
+</html>

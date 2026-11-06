@@ -1,0 +1,36 @@
+:root {
+  color-scheme: light;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-height: 100vh; margin: 0; display: flex; flex-direction: column; }
+a { color: inherit; text-decoration: none; }
+
+#landing-page {
+  font-family:'Arial Narrow';
+  height:100dvh;
+  width:100dvw;
+  text-align:left;
+  padding:20px;
+  font-size:clamp(5vw,8vw,10vw);
+}
+
+  #landing-page-title {
+    color:blue;
+  }
+
+.inline-icon {
+  height: 1.2em;
+  width: auto;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.explore-link { text-decoration: underline; text-underline-offset: .12em; }
+.explore-link:hover { color: #555; }

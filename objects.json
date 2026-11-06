@@ -1,0 +1,34 @@
+[
+  {
+    "id": "nos-vemos-en-colombia",
+    "name": "Nos Vemos en Colombia",
+    "description": "a photobook i made documenting my colombia trip w/ nacho",
+    "image": "assets/nos_vemos_en_colombia.png",
+    "sentimental": 9,
+    "practical": 2
+  },
+  {
+    "id": "levoit-air-purifier",
+    "name": "Levoit Air Purifier",
+    "description": "cleans my air, i think",
+    "image": "assets/levoit_air_purifier.png",
+    "sentimental": 1,
+    "practical": 7
+  },
+  {
+    "id": "water-bottle",
+    "name": "Hydroflask Water Bottle",
+    "description": "keeps me hydrated. was a gift. use it every day. probably don't wash it enough.",
+    "image": "assets/hydroflask_water_bottle.png",
+    "sentimental": 4,
+    "practical": 10
+  },
+  {
+    "id": "vintage-yankees-cap",
+    "name": "Vintage Yankee's Cap",
+    "description": "used to be my dad's. great beach hat.",
+    "image": "assets/vintage_yankees_cap.png",
+    "sentimental": 8,
+    "practical": 7
+  }
+]
